@@ -1,0 +1,36 @@
+{
+  "name": "adamwojs/ezplatform-form-builder-recaptcha-field",
+  "license": "MIT",
+  "type": "ezplatform-bundle",
+  "description": "Bundle providing reCAPTCHA field for the eZ Platform EE Form Builder",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://updates.ez.no/ttl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AdamWojs\\EzPlatformFormBuilderRecaptchaBundle\\": "src/bundle/",
+      "AdamWojs\\EzPlatformFormBuilderRecaptcha\\": "src/lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AdamWojs\\EzPlatformFormBuilderRecaptchaBundle\\Tests\\": "src/bundle/Tests"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ezsystems/ezpublish-kernel": "^7.3",
+    "ezsystems/ezplatform-form-builder": "^1.0",
+    "excelwebzone/recaptcha-bundle": "^1.5"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "2.7.*",
+    "phpunit/phpunit": "~7.0"
+  },
+  "scripts": {
+    "fix-cs": "@php ./vendor/bin/php-cs-fixer fix -v --show-progress=estimating"
+  }
+}

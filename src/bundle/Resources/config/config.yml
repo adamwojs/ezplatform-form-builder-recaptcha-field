@@ -1,0 +1,32 @@
+ez_platform_form_builder:
+    fields:
+        recaptcha:
+            name: 'reCAPTCHA'
+            category: 'Basic form fields'
+            thumbnail: '/bundles/ezplatformadminui/img/ez-icons.svg#captcha'
+            attributes:
+                label:
+                    name: 'Display label'
+                    type: 'string'
+                    validators:
+                        not_blank:
+                            message: 'You must provide label of the field'
+                help:
+                    name: 'Help text'
+                    type: 'string'
+                theme:
+                    name: 'Theme'
+                    type: 'select'
+                    options:
+                        choices:
+                            'Light': 'light'
+                            'Dark': 'dark'
+                    default_value: 'light'
+                size:
+                    name: 'Size'
+                    type: 'select'
+                    options:
+                        choices:
+                            'Normal': 'normal'
+                            'Compact': 'compact'
+                    default_value: 'normal'
