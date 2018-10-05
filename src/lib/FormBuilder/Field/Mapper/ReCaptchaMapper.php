@@ -17,7 +17,7 @@ class ReCaptchaMapper extends GenericFieldMapper
     {
         $options = parent::mapFormOptions($field, $constraints);
         $options['field'] = $field;
-        $options['label'] = $field->getAttributeValue('label');
+        $options['label'] = $field->getName();
         $options['attr'] = [
             'options' => [
                 'theme' => $field->getAttributeValue('theme'),

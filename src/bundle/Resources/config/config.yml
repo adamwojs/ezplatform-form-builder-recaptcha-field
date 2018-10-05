@@ -5,12 +5,6 @@ ez_platform_form_builder:
             category: 'Basic form fields'
             thumbnail: '/bundles/ezplatformadminui/img/ez-icons.svg#captcha'
             attributes:
-                label:
-                    name: 'Display label'
-                    type: 'string'
-                    validators:
-                        not_blank:
-                            message: 'You must provide label of the field'
                 help:
                     name: 'Help text'
                     type: 'string'
