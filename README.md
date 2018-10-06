@@ -1,8 +1,8 @@
 # EzPlatformFormBuilderRecaptchaBundle
 
-[![Downloads](https://img.shields.io/packagist/dt/edgar/ez-platformformbuilderrecaptcha-bundle.svg?style=flat-square)](https://packagist.org/packages/adamwojs/ez-platformformbuilderrecaptcha-bundle)
-[![Latest release](https://img.shields.io/github/release/AdamWojs/EzPlatformFormBuilderRecaptchaBundle.svg?style=flat-square)](https://github.com/AdamWojs/EzPlatformFormBuilderRecaptchaBundle/releases)
-[![License](https://img.shields.io/packagist/l/adamwojs/ez-platformformbuilderrecaptcha-bundle.svg?style=flat-square)](LICENSE)
+[![Downloads](https://img.shields.io/packagist/dt/adamwojs/ezplatform-form-builder-recaptcha-field.svg?style=flat-square)](https://packagist.org/packages/adamwojs/ezplatform-form-builder-recaptcha-field)
+[![Latest release](https://img.shields.io/github/release/adamwojs/ezplatform-form-builder-recaptcha-field.svg?style=flat-square)](https://github.com/adamwojs/ezplatform-form-builder-recaptcha-field/releases)
+[![License](https://img.shields.io/packagist/l/adamwojs/ezplatform-form-builder-recaptcha-field.svg?style=flat-square)](LICENSE)
 
 ## Description
 
