@@ -11,11 +11,8 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\Yaml\Yaml;
 
-class EzPlatformFormBuilderRecaptchaExtension extends Extension implements PrependExtensionInterface
+final class EzPlatformFormBuilderRecaptchaExtension extends Extension implements PrependExtensionInterface
 {
-    /**
-     * {@inheritdoc}
-     */
     public function load(array $configs, ContainerBuilder $container): void
     {
         $loader = new YamlFileLoader(
@@ -26,9 +23,6 @@ class EzPlatformFormBuilderRecaptchaExtension extends Extension implements Prepe
         $loader->load('services.yml');
     }
 
-    /**
-     * {@inheritdoc}
-     */
     public function prepend(ContainerBuilder $container): void
     {
         $config = Yaml::parseFile(

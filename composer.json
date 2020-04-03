@@ -21,14 +21,21 @@
     }
   },
   "require": {
-    "php": ">=7.1",
-    "ezsystems/ezpublish-kernel": "^7.3",
-    "ezsystems/ezplatform-form-builder": "^1.0",
-    "excelwebzone/recaptcha-bundle": "^1.5"
+    "php": "^7.3",
+    "ezsystems/ezplatform-kernel": "^1.0",
+    "ezsystems/ezplatform-form-builder": "^2.0",
+    "excelwebzone/recaptcha-bundle": "^1.5",
+    "symfony/http-kernel": "^5.0",
+    "symfony/config": "^5.0",
+    "symfony/dependency-injection": "^5.0",
+    "symfony/yaml": "^5.0",
+    "symfony/form": "^5.0",
+    "symfony/options-resolver": "^5.0"
   },
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "2.7.*",
-    "phpunit/phpunit": "~7.0"
+    "ezsystems/ezplatform-code-style": "^0.1.0",
+    "friendsofphp/php-cs-fixer": "^2.16.0",
+    "phpunit/phpunit": "^8.4"
   },
   "scripts": {
     "fix-cs": "@php ./vendor/bin/php-cs-fixer fix -v --show-progress=estimating"

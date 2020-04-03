@@ -6,12 +6,10 @@
 
 ## Description
 
-Bundle providing reCAPTCHA field for the Form Builder in eZ Platform EE. Based on https://github.com/excelwebzone/EWZRecaptchaBundle.
+Bundle providing reCAPTCHA field for the Form Builder in eZ Platform EE (2.X and 3.X). Based on https://github.com/excelwebzone/EWZRecaptchaBundle.
 
 ![Screenshot](docs/SCREENSHOT.png)
 
 ## Documentation
 
 [Installation](docs/INSTALL.md)
-
-[Usage](docs/USAGE.md)

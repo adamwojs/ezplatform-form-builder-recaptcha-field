@@ -8,11 +8,8 @@ use EzSystems\EzPlatformFormBuilder\FieldType\Field\Mapper\GenericFieldMapper;
 use EzSystems\EzPlatformFormBuilder\FieldType\Model\Field;
 use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
 
-class ReCaptchaMapper extends GenericFieldMapper
+final class ReCaptchaMapper extends GenericFieldMapper
 {
-    /**
-     * {@inheritdoc}
-     */
     protected function mapFormOptions(Field $field, array $constraints): array
     {
         $options = parent::mapFormOptions($field, $constraints);
